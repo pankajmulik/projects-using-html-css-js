@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onsubmit Event </title>
+</head>
+<body>
+    <form action="googlr"  >
+<input type="text" name="username" id="userid" placeholder="eneter the username" onkeyup="alert('input has been changed')">
+<small id="usernmae_error"></small>
+<input type="text" name="pass" id="password"> 
+    
+    <button type="submit" id="submitted">submit</button>
+</form>
+</body>
+</html>
+<script>
+    
+
+   document.getElementById('submitted').onclick=submitform;
+   function submitform(){
+    alert('form is submitted')
+   }
+
+    </script>

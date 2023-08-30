@@ -1,0 +1,20 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(93, 137, 122) !important;
+}
+
+#quedivs{
+    margin-top: 50px;
+    background-color: whitesmoke;
+}
+li{
+    justify-content: center !important;
+    list-style-type: none;
+    padding: 16px !important;
+}
+input , label{
+    margin: 20px;
+    font-size: 10px;
+    font-weight: bold;
+}

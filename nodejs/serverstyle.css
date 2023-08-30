@@ -1,0 +1,17 @@
+body{
+    background-color: aquamarine;
+}
+
+
+#navbar_a{
+    width: 100%;
+    height: 50px;
+display: flex;
+align-items: center;
+background-color: bisque;
+
+}
+ul{
+    list-style-type: none;
+    display: inline;
+}

@@ -1,0 +1,11 @@
+
+.container{
+display:inline;
+
+}
+#sidepanel{
+    float: right;
+}
+li{
+    list-style-type: none;
+}
